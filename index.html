@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app | Vanilla JS</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+
+    <nav>
+        <p>&copy; Created By <a href="https://github.com/BLW96" target="_blank">BLW96</a></p>
+    </nav>
+    <div class="container">
+        <h2 class="heading">Weather App</h2>
+        <div class="search-bar">
+            <input type="text" class="search" placeholder="Search for city..">
+            <button><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m42.501 42.5l-7.351-7.776a17.244 17.244 0 1 0-7.075 4.422" />
+                </svg></button>
+        </div>
+        <div class="weather d-none">
+            <div class="flex wrapper">
+                <div class="location">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20">
+                        <path fill="currentColor" d="M10 2.009c-2.762 0-5 2.229-5 4.99c0 4.774 5 11 5 11s5-6.227 5-11c0-2.76-2.238-4.99-5-4.99zm0 7.751a2.7 2.7 0 1 1 0-5.4a2.7 2.7 0 0 1 0 5.4z" />
+                    </svg>
+                </div>
+                <h2 class="city"></h2>
+                <h2 class="country"></h2>
+            </div>
+            <div class="flex wrapper">
+                <div class="temp"></div>
+                <div class="col">
+                    <h3 class="temp-symbol">°C</h3>
+                    <h3 class="desc"></h3>
+                </div>
+            </div>
+            <div class="space-between wrapper">
+                <img src="" class="icon" alt=" "></img>
+                <h3 class="date"></h3>
+            </div>
+            <div class="wrapper">
+                <h4 class="humidity"></h4>
+                <h4 class="wind"></h4>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
